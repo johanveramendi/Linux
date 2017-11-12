@@ -1,0 +1,12 @@
+#Instalar VIM
+$ su -
+$ dnf -y install vim-enhanced
+$ cim saludo
+$
+Hola Mundo
+ESC
+yy
+20p
+G
+o
+windows es lo maximo
