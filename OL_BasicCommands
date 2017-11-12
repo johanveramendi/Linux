@@ -1,0 +1,41 @@
+ls -> list the directories
+cd -> allow change the directories
+pwd -> actually path
+mkidr -> allow create directories
+cp -> copy files or directories
+mv -> move or rename files or directories
+rm -> delete files or directories
+rmdir -> for delete directories
+clear -> clear the terminal (Ctrl + l)
+
+cp /etc/passwd f1 f2 f3 f4
+car f1
+cat f2
+cat f3
+cat f4
+
+cp only has 2 arguments (origin, and destination):
+$ cp /etc/passwd f1 
+$ echo "Hola Mundo" > f1 #agrega "Hola mundo" a f1
+$ echo "Hola Mundi" >> f1   #agrega una linea en f1
+
+A Absoluty path begin with home
+
+$ ls fedora-release
+$ cat fedora-release   #show the version of fedora
+
+$ ls ../usr/share/doc  #lis the content of usr, but to be on etc
+$ ls .  #list all the content into the carpet
+
+AutoTab allow autocomplete commands, enviornment variables 
+
+$ SU -  #like superuser
+$ cd /etc
+$ cd ..
+$ pwd
+$ cd
+
+$ls --full-time 
+
+$ cp -p
+$ mkdir -p
